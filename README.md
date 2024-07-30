@@ -1,5 +1,5 @@
 # trufflehog-url-parser
-Uses trufflehog to parse a file containig target URLs
+Uses trufflehog to parse a file containing target URLs
 
 # Operation
 Using the command line, call the python file with a list of URLs (one line per URL). This script will use the filesystem argument with trufflehog. It uses the requests module to make the request every 2 seconds with a 5 second timout, and only parses status codes of 200. After going through the list of URLs, 4 files will be created:
